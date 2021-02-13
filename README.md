@@ -63,5 +63,5 @@ It will train for 50000 episodes, with the following hyperparameters:
 - learning rate (alpha) = 0.1
 - the temporal difference discount factor (gamma) = 0.9
 ## Comparison
-![Q-learning vs. Sarsa](Q-learning_vs_Sarsa.png) 
+![Q-learning vs. Sarsa](Q-learning vs Sarsa.png) 
 ## References
