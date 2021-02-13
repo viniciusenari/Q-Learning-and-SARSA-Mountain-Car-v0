@@ -27,7 +27,7 @@ The episode may also terminate when it reaches the maximum number of steps (The 
 
 ## Q-Learning
 ---
-You can run the following line to run and render a pre-trained agent with Q-learning. It will run 10 for episodes.
+You can run the following line to render a pre-trained agent with Q-learning. It will run 10 for episodes.
 ```
 python run_qlearning_agent.py
 ```
@@ -46,7 +46,7 @@ It will train for 50000 episodes, with the following hyperparameters:
 
 ## SARSA
 ---
-You can run the following line to run and render a pre-trained agent with Q-learning. It will run for 10 episodes.
+You can run the following line to  render a pre-trained agent with SARSA. It will run for 10 episodes.
 ```
 python run_sarsa_agent.py
 ```
@@ -64,6 +64,6 @@ It will train for 50000 episodes, with the following hyperparameters:
 - the temporal difference discount factor (gamma) = 0.9
 ## Comparison  
 
-![Q-learning vs. Sarsa](Q-learning_vs_Sarsa.png)  
+![Q-learning vs. Sarsa](Q-learning_vs_Sarsa.jpg)  
 
 ## References
