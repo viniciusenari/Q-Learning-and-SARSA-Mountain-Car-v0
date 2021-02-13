@@ -2,8 +2,8 @@
 ---
 This project contains the code to train an agent to solve the [OpenAI Gym Mountain Car environment](https://gym.openai.com/envs/MountainCar-v0/). Q-Learning and SARSA
 ---
-## The Mountain Car Environment
-![Random Agent Mountain Car](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+## The Mountain Car Environment  
+![Random Agent Mountain Car](MountainCarEnvironment.PNG)  
 The environment is two-dimensional and it consists of a car between two hills. The goal of the car is to reach a flag at the top of the hill on the right. The hills is too steep for the car to scale just by moving in the same direction, it has to go back and fourth to build up enough momentum to drive up.
 ### Observation Space:
 The are two variables that determine the current state of the environment.
