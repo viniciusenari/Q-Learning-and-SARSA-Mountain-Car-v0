@@ -33,7 +33,7 @@ The agent was trained for 100000 episodes. Its Q-values are saved in the file pr
 
 
 ![Q-Learning Agent Mountain Car](QlearningAgent.gif)  
-
+*Agent Trained using Q-Learning*  
 
 To train a new agent you can run the following line:
 ```
@@ -49,6 +49,7 @@ python run_sarsa_agent.py
 ```
 The agent was trained for 100000 episodes. Its Q-values are saved in the file pre-trained-SARSA.pkl, which can be loaded with the function load_obj() from the auxFunctions.py file.  
 ![SARSA Agent Mountain Car](SARSAAgent.gif)  
+*Agent Trained using SARSA*  
 To train a new agent you can run the following line:
 ```
 python3 train_sarsa.py
