@@ -47,8 +47,8 @@ You can run the following line to run and render a pre-trained agent with Q-lear
 ```
 python run_sarsa_agent.py
 ```
-The agent was trained for 100000 episodes. Its Q-values are saved in the file pre-trained-SARSA.pkl, which can be loaded with the function load_obj() from the auxFunctions.py file.
-![SARSA Agent Mountain Car](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+The agent was trained for 100000 episodes. Its Q-values are saved in the file pre-trained-SARSA.pkl, which can be loaded with the function load_obj() from the auxFunctions.py file.  
+![SARSA Agent Mountain Car](SARSAAgent.gif)  
 To train a new agent you can run the following line:
 ```
 python3 train_sarsa.py
