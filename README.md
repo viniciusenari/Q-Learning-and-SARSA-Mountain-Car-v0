@@ -30,7 +30,9 @@ You can run the following line to run and render a pre-trained agent with Q-lear
 python run_qlearning_agent.py
 ```
 The agent was trained for 100000 episodes. Its Q-values are saved in the file pre-trained-Q-Learning.pkl, which can be loaded with the function load_obj() from the auxFunctions.py file.
-![Q-Learning Agent Mountain Car](QlearningAgent.gif)
+<p align="center">
+  ![Q-Learning Agent Mountain Car](QlearningAgent.gif)
+</p>
 To train a new agent you can run the following line:
 ```
 python3 train_qlearning.py
