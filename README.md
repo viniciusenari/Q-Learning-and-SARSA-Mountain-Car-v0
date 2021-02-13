@@ -3,7 +3,7 @@
 This project contains the code to train an agent to solve the [OpenAI Gym Mountain Car environment](https://gym.openai.com/envs/MountainCar-v0/). Q-Learning and SARSA
 ---
 ## The Mountain Car Environment  
-![Random Agent Mountain Car](MountainCarEnvironment.PNG)  
+![Mountain Car Environment](MountainCarEnvironment.PNG)  
 The environment is two-dimensional and it consists of a car between two hills. The goal of the car is to reach a flag at the top of the hill on the right. The hills are too steep for the car to scale just by moving in the same direction, it has to go back and fourth to build up enough momentum to drive up.
 ### Observation Space:
 The are two variables that determine the current state of the environment.
@@ -31,7 +31,6 @@ python run_qlearning_agent.py
 ```
 The agent was trained for 100000 episodes. Its Q-values are saved in the file pre-trained-Q-Learning.pkl, which can be loaded with the function load_obj() from the auxFunctions.py file.  
 
-
 ![Q-Learning Agent Mountain Car](QlearningAgent.gif)  
 *Agent Trained using Q-Learning*  
 
@@ -48,7 +47,9 @@ You can run the following line to run and render a pre-trained agent with Q-lear
 python run_sarsa_agent.py
 ```
 The agent was trained for 100000 episodes. Its Q-values are saved in the file pre-trained-SARSA.pkl, which can be loaded with the function load_obj() from the auxFunctions.py file.  
+
 ![SARSA Agent Mountain Car](SARSAAgent.gif)  
+
 *Agent Trained using SARSA*  
 To train a new agent you can run the following line:
 ```
