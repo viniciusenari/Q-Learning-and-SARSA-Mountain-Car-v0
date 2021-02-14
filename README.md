@@ -31,18 +31,19 @@ You can run the following line to render a pre-trained agent with Q-learning. It
 ```
 python run_qlearning_agent.py
 ```
-The agent was trained for 100000 episodes. Its Q-values are saved in the file pre-trained-Q-Learning.pkl, which can be loaded with the function load_obj() from the auxFunctions.py file.  
+The agent was trained for 100000 episodes. Its Q-values are saved in the file 'pre-trained-Q-Learning.pkl', which can be loaded with the function load_obj() from the auxFunctions.py file.  
 
 ![Q-Learning Agent Mountain Car](QlearningAgent.gif)  
 *Agent Trained using Q-Learning*  
 
 To train a new agent you can run the following line:
 ```
-python3 train_qlearning.py
+python train_qlearning.py
 ```
 It will train for 50000 episodes, with the following hyperparameters:
 - learning rate (alpha) = 0.1
 - the temporal difference discount factor (gamma) = 0.9
+After training, it will create a fille called 'Q-table-Q-Learning'. Replace the 'pre-trained-Q-Learning' string inputted to the load_obj() function in run_qlearning_agent.py with 'Q-table-Q-Learning' so you can see the agent you trained.
 
 ## SARSA
 ---
@@ -50,20 +51,24 @@ You can run the following line to  render a pre-trained agent with SARSA. It wil
 ```
 python run_sarsa_agent.py
 ```
-The agent was trained for 100000 episodes. Its Q-values are saved in the file pre-trained-SARSA.pkl, which can be loaded with the function load_obj() from the auxFunctions.py file.  
+The agent was trained for 100000 episodes. Its Q-values are saved in the file 'pre-trained-SARSA.pkl', which can be loaded with the function load_obj() from the auxFunctions.py file.  
 
 ![SARSA Agent Mountain Car](SARSAAgent.gif)  
 
 *Agent Trained using SARSA*  
 To train a new agent you can run the following line:
 ```
-python3 train_sarsa.py
+python train_sarsa.py
 ```
 It will train for 50000 episodes, with the following hyperparameters:
 - learning rate (alpha) = 0.1
 - the temporal difference discount factor (gamma) = 0.9
+After training, it will create a fille called 'Q-table-SARSA'. Replace the 'pre-trained-SARSA' string inputted to the load_obj() function in run_sarsa_agent.py with 'Q-table-SARSA' so you can see the agent you trained.
 ## Comparison  
 
 ![Q-learning vs. Sarsa](Q-learning_vs_Sarsa.jpg)  
+Q-learning and SARSA seem to perform the same for training this agent.
 
 ## References
+OpenAI. (n.d.). MountainCar-v0. Retrieved from https://gym.openai.com/envs/MountainCar-v0/
+Reinforcement Learning in the OpenAI Gym (Tutorial) - SARSA. (2018, August 8). [Video]. YouTube. https://www.youtube.com/watch?v=P9XezMuPfLE
