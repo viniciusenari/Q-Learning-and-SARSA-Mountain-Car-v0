@@ -70,5 +70,5 @@ After training, it will create a fille called 'Q-table-SARSA'. Replace the 'pre-
 Q-learning and SARSA have a very similar performance in terms of how much they learn at each episode, which is expected given that both are utilizing the same hyperparameters and policy. SARSA seems to be a little more consistent, given Q-Learning obtains rewards that are less than -200 more often, even after training for more than 50000 episodes.
 
 ## References
-OpenAI. (n.d.). MountainCar-v0. Retrieved from https://gym.openai.com/envs/MountainCar-v0/
+OpenAI. (n.d.). MountainCar-v0. Retrieved from https://gym.openai.com/envs/MountainCar-v0/  
 Reinforcement Learning in the OpenAI Gym (Tutorial) - SARSA. (2018, August 8). [Video]. YouTube. https://www.youtube.com/watch?v=P9XezMuPfLE
