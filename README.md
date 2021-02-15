@@ -1,6 +1,6 @@
 # MountainCar-v0 with Q-Learning and SARSA
 ---
-This project contains the code to train an agent to solve the [OpenAI Gym Mountain Car environment](https://gym.openai.com/envs/MountainCar-v0/). Q-Learning and SARSA
+This project contains the code to train an agent to solve the [OpenAI Gym Mountain Car environment](https://gym.openai.com/envs/MountainCar-v0/) with Q-Learning and SARSA. It also contains pre-trained agents using both algorithms.
 
 ## The Mountain Car Environment
 ---
